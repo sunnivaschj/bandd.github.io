@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(69, 187, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#lenker, #hoved {
+    background-color: rgba(175, 37, 175, 0.333);
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+    width: 80%;
+    margin: 10px auto;
+    text-align: left; /* sidestiller teksten */
+    padding: 40px;
+    border: 4px rgb(3, 3, 112) !important; 
+}
+
+button {
+    border: 1px rgb(184, 202, 196) !important;
+
+    /* text-align: center; */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color:#e6dfdf;
+    text-align: underline;
+}
+
+/* img {
+    margin: auto;
+    margin: 10px;
+} */
+
+
+/* Lenker */
+
+a {
+    color: #037eb6; /* Link-fargen blir blå før den har blitt klikket på */ 
+}
+a:visited { /* Utseendet til lenken som man tidligere har trykket på. */ 
+    color:rgb(136, 30, 30);
+}
+a:hover { /*  Utseendet til lenken idet man tar musepekeren over den */ 
+    color:rgb(245, 21, 178);
+    text-decoration-color: rgb(184, 202, 196);
+}
+a:active { /* Utseendet til lenken idet den blir trykket på */ 
+    text-decoration-color: none;
+}
+a:focus {
+    color:rgb(136, 30, 30);
+    text-decoration-color: rgb(184, 202, 196);
+}
